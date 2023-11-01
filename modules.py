@@ -92,8 +92,10 @@ class FileEditor:
             with open (path, mode) as file:
                 text = file.write("\n"+input(f"Enter your idea here to add on {filename} file: "))
                 print(text)
-    def search_in_folder():
+    
+    def search_in_folder(searching_item):
         print("This module is not prepared yet. \nSorry We are working on it")
+    
     def move_cwd():
         print("To go forword dir use ( / foldername). To go to backdir just write --")
         print("This module is not prepared yet. \nSorry We are working on it")
