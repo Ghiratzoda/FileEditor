@@ -97,28 +97,3 @@ class FileEditor:
     def move_cwd():
         print("To go forword dir use ( / foldername). To go to backdir just write --")
         print("This module is not prepared yet. \nSorry We are working on it")
-
-
-class FileManagment:
-    def __init__(self, name):
-        self.name = name
-    
-    def create_file(self, destination):
-        print(f"Creating a new file at {destination}")
-
-    def __str__(self) -> str:
-        return f"This is a {self.name} file"
-# # =======================================================
-# def db(filename='db.txt'):
-#     with open(filename, 'r') as file:
-#         CWD = file.read()
-#     return CWD
-# # CWD = db()
-
-
-
-
-
-
-
-
